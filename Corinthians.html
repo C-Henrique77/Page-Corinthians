@@ -1,0 +1,176 @@
+!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riq's Wolrd (SCCP)</title>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./imagens/icon escudo.ico">
+</head>
+
+<body id="pg2">
+    <div>
+        <h1 id="Principal2"> Sport Club Corinthians Paulista </h1>
+    </div>
+
+    <div id="escudos">
+        <img id="escudo1" src="./imagens/1escudo.png" alt="Foto" class="photo">
+        <img id="escudo2" src="./imagens/3escudo.png" alt="Foto" class="photo">
+        <img id="escudo3" src="./imagens/2escudo.png" alt="Foto" class="photo">
+
+    </div>
+    </div>
+    <div>
+        <h2 id="Hm"> História e Momentos Marcantes</h2>
+    </div>
+
+    <div>
+        <h3 id="fundação">A Fundação (1910)</h3>
+        <p id="sobre">Às 20h30 do dia 1º de setembro, à luz de um lampião, na esquina das ruas José Paulino e Cônego
+            Martins, no bairro do Bom Retiro, o grupo de operários formado por Anselmo Corrêa,
+            Antônio Pereira, Carlos Silva, Joaquim
+            Ambrósio e Raphael Perrone fundaram o Sport Club Corinthians Paulista. Com mais oito rapazes, foi formada a
+            reunião dos primeiros integrantes
+            e sócio fundadores do Timão, que teve seu nome inspirado na equipe inglesa Corinthian Football Club,que
+            fazia excursão pelo Brasil. O presidente escolhido por eles foi o alfaiate Miguel
+            Battaglia, que, já no primeiro momento, afirmou: “O Corinthians vai ser o time do povo e o povo é quem vai
+            fazer o time”. Um terreno alugado na Rua José Paulino foi aplainado, virou
+            campo e foi lá que, já no dia 14 de setembro, o primeiro treino foi realizado diante de uma plateia
+            entusiasmada, que garantiu: “Este veio para ficar!”.
+    </div>
+
+    <div>
+        <h3 id="Jejum"> Fim do Jejum de 23 anos</h3>
+        <p id="pjejum">O título paulista de 1977 é um dos mais icônicos da história do Corinthians. Após um longo jejum
+            de 23 anos sem conquistar o Campeonato Paulista, o Corinthians finalmente quebrou essa sequência ao vencer a
+            final contra a Ponte Preta.
+            O campeonato foi decidido em uma série de três jogos. No terceiro e decisivo jogo, realizado em 13 de
+            outubro de 1977 no Estádio do Morumbi, o Corinthians venceu por 1 a 0 com um gol do atacante Basílio, que
+            ficou conhecido como "Pé de Anjo".
+            Esse título foi muito comemorado pelos torcedores, marcando o fim de um período de espera e solidificando
+            ainda mais a paixão da torcida pelo clube.</p>
+    </div>
+
+    <div>
+        <h3 id="japão"> Invencibilidade na liberta / Invasão no Japão </h3>
+        <p id="invasão">O ano de 2012 foi histórico para o Corinthians, marcado por conquistas de grande importância. O
+            principal destaque foi a conquista inédita da Copa Libertadores da América. O Corinthians, comandado pelo
+            técnico Tite, fez uma campanha invicta,
+            derrotando equipes tradicionais e, na final, venceu o Boca Juniors da Argentina. No jogo decisivo, no
+            Pacaembu, venceu por 2 a 0, com dois gols de Emerson Sheik.
+            Além da Libertadores, o Corinthians conquistou o Mundial de Clubes da FIFA em dezembro de 2012. Na final,
+            realizada no Japão, o time venceu o Chelsea, da Inglaterra, por 1 a 0, com gol de Paolo Guerrero. Esse foi o
+            segundo título mundial do clube, consolidando
+            o ano de 2012 como um dos mais gloriosos da história corintiana.</p>
+    </div>
+
+    <div>
+        <h2 id="cf"> Coletânia de Fotos</h2>
+        <img id="fund" src="./imagens/fundação.jpg" alt="Operários Fundadores" class="thumbnail"
+            onclick="openModal(this)">
+        <img id="basi" src="./imagens/basilio.jpg" alt="Basílio, Pé de Anjo" class="thumbnail"
+            onclick="openModal(this)">
+        <img id="mundi" src="./imagens/2012.png" alt="Heróis de 2012" class="thumbnail" onclick="openModal(this)">
+
+        <div id="myModal" class="modal" onclick="closeModal()">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption">
+
+            </div>
+        </div>
+
+        <div>
+            <h2 id="camisas">Camisas</h2>
+            <img id="branca24" src="./imagens/camisa branca.jpg" alt="Camisa branca Casa 2024" class="thumbnail"
+                onclick="openModal(this)">
+            <img id="preta24" src="./imagens/camisa preta.jpg" alt="Camisa Preta Fora 2024" class="thumbnail"
+                onclick="openModal(this)">
+            <img id="brancapreta24" src="./imagens/camisa 3.jpg" alt="Suposta Camisa 3 2024" class="thumbnail"
+                onclick="openModal(this)">
+            <button id="nike1">Comprar camisa 1</button>
+            <button id="nike2">Comprar camisa 2</button>
+            <button id="nike3">Comprar camisa 3</button>
+            <script>
+                document.getElementById("nike1").addEventListener("click", function () {
+                    window.location.href = "https://www.shoptimao.com.br/p/camisa-corinthians-i-2425-sn-torcedor-nike-masculina-branco+preto-JD8-6758-028";
+                });
+                document.getElementById("nike2").addEventListener("click", function () {
+                    window.location.href = "https://www.nike.com.br/camisa-nike-corinthians-ii-2024-25-torcedor-pro-masculina-028729.html";
+                });
+                document.getElementById("nike3").addEventListener("click", function () {
+                    alert("Está camisa ainda não está a venda!")
+                });
+            </script>
+
+        </div>
+        <div>
+            <h2 id="elenco">Elenco Titular 2024</h2>
+            <div class="galeria">
+                <img id="hugo" src="./imagens/hugo.jpg" alt="Hugo Souza (GOL)" class="thumbnail"
+                    onclick="openModal(this)">
+                <img id="andre" src="./imagens/andre-ramalho-silva-no-corinthians_og.jpg" alt="André Ramalho (ZAG)"
+                    class="thumbnail" onclick="openModal(this)">
+                <img id="felix" src="./imagens/felix-eduardo-torres-caicedo-no-corinthians_6g.jpg"
+                    alt="Felix Torres (ZAG)" class="thumbnail" onclick="openModal(this)">
+                <img id="caca" src="./imagens/caca.jpg" alt="Cacá (ZAG)" class="thumbnail" onclick="openModal(this)">
+                <img id="bidu" src="./imagens/bidu.jpg" alt="Matheus Bidu (LATE)" class="thumbnail"
+                    onclick="openModal(this)">
+                <img id="fagner" src="./imagens/fagner-conserva-lemos-no-corinthians_og.jpg" alt="Fágner (LATD)"
+                    class="thumbnail" onclick="openModal(this)">
+                <img id="raniele" src="./imagens/raniele-almeida-melo-no-corinthians_wg.jpg" alt="Raniele (VOL)"
+                    class="thumbnail" onclick="openModal(this)">
+                <img id="coronado" src="./imagens/igor-caique-coronado-no-corinthians_7g.jpg" alt="Igor Coronado (MEI)"
+                    class="thumbnail" onclick="openModal(this)">
+                <img id="garro" src="./imagens/rodrigo-garro-no-corinthians_7g.jpg" alt="Rodrigo Garro(MEI)"
+                    class="thumbnail" onclick="openModal(this)">
+                <img id="yuri" src="./imagens/yuri-alberto-monteiro-da-silva-no-corinthians_5g.jpg"
+                    alt="Yuri Alberto (ATA)" class="thumbnail" onclick="openModal(this)">
+                <img id="romero" src="./imagens/angel-rodrigo-romero-villamayor-no-corinthians_bg.jpg"
+                    alt="Angel Romero(ATA)" class="thumbnail" onclick="openModal(this)">
+
+                <script>
+                    document.getElementById('hugo').addEventListener('click', function () {
+                        this.classList.toggle('ampliada');
+                    });
+                    document.getElementById('andre').addEventListener('click', function () {
+                        this.classList.toggle('ampliada');
+                    });
+                    document.getElementById('felix').addEventListener('click', function () {
+                        this.classList.toggle('ampliada');
+                    });
+                    document.getElementById('caca').addEventListener('click', function () {
+                        this.classList.toggle('ampliada');
+                    });
+                    document.getElementById('bidu').addEventListener('click', function () {
+                        this.classList.toggle('ampliada');
+                    });
+                    document.getElementById('fagner').addEventListener('click', function () {
+                        this.classList.toggle('ampliada');
+                    });
+                    document.getElementById('raniele').addEventListener('click', function () {
+                        this.classList.toggle('ampliada');
+                    });
+                    document.getElementById('coronado').addEventListener('click', function () {
+                        this.classList.toggle('ampliada');
+                    });
+                    document.getElementById('garro').addEventListener('click', function () {
+                        this.classList.toggle('ampliada');
+                    });
+                    document.getElementById('yuri').addEventListener('click', function () {
+                        this.classList.toggle('ampliada');
+                    });
+                    document.getElementById('romero').addEventListener('click', function () {
+                        this.classList.toggle('ampliada');
+                    });
+                </script>
+            </div>
+        </div>
+
+
+        <script src="funtions.js"></script>
+
+</body>
+
+</html>
