@@ -1,7 +1,3 @@
-document.getElementById("bttn").addEventListener("click", function() {
-    window.location.href = "pagina2.html";
-});
-
 function openModal(element) {
     var modal = document.getElementById("myModal");
     var modalImg = document.getElementById("img01");
@@ -15,4 +11,5 @@ function openModal(element) {
 function closeModal() {
     var modal = document.getElementById("myModal");
     modal.style.display = "none";
+
 }
